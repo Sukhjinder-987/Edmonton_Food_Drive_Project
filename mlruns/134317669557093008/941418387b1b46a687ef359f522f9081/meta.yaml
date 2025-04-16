@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bhullar295/Edmonton_Food_Drive_Project/mlruns/134317669557093008/941418387b1b46a687ef359f522f9081/artifacts
+end_time: 1744521649142
+entry_point_name: ''
+experiment_id: '134317669557093008'
+lifecycle_stage: active
+run_id: 941418387b1b46a687ef359f522f9081
+run_name: ambitious-wasp-262
+run_uuid: 941418387b1b46a687ef359f522f9081
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744521633928
+status: 3
+tags: []
+user_id: bhullar295

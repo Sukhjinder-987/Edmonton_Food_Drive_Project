@@ -1,0 +1,33 @@
+raw_data_2023: "Cleaned Proposed Data Collection.csv"
+raw_data_2024: "Food_Drive_Data_Collection_2024.csv"
+train_path: "Cleaned_Proposed_Data_Collection.csv"
+test_path: "Cleaned_food_drive_data.csv"
+models_dir: "models/"
+model_v1_path: "models/RandomForestClassifier.pkl"
+model_v2_path: "models/DecisionTreeClassifier.pkl"
+predictions_output: "predictions/predictions.csv" 
+feature_columns: 
+- "Ward/Branch"
+- "Completed More Than One Route"
+- "# of Adult Volunteers"
+- "Doors in Route"
+- "# of Youth Volunteers"
+- "Time Spent"
+target_column: "Comment Sentiments"
+mlflow_experiment_name: "FoodDriveExperiment"
+random_forest:
+  n_estimators: 100
+  max_depth: 10
+param_grids:
+    RandomForestClassifier: 
+        n_estimators: [50, 100, 200]
+        max_depth: [None, 10, 20, 30]  
+        min_samples_split: [2, 5, 10]
+        min_samples_leaf: [1, 2, 4]
+    DecisionTreeClassifier: 
+        max_depth: [None, 10, 20, 30]  
+        min_samples_split: [2, 5, 10]  
+        min_samples_leaf: [1, 2, 4]  
+        criterion: ["gini", "entropy"] 
+client_id: "1073916258109-5g2oshq75q9p1c03l0sj1jrkr185rfrt.apps.googleusercontent.com"
+client_secret: "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"

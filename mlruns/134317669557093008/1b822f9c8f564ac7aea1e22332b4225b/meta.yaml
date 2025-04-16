@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bhullar295/Edmonton_Food_Drive_Project/mlruns/134317669557093008/1b822f9c8f564ac7aea1e22332b4225b/artifacts
+end_time: 1744521949338
+entry_point_name: ''
+experiment_id: '134317669557093008'
+lifecycle_stage: active
+run_id: 1b822f9c8f564ac7aea1e22332b4225b
+run_name: beautiful-skink-177
+run_uuid: 1b822f9c8f564ac7aea1e22332b4225b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744521941309
+status: 3
+tags: []
+user_id: bhullar295

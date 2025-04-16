@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bhullar295/Edmonton_Food_Drive_Project/mlruns/134317669557093008/f325feca273942719f4d61abc49ad22c/artifacts
+end_time: 1744520771619
+entry_point_name: ''
+experiment_id: '134317669557093008'
+lifecycle_stage: active
+run_id: f325feca273942719f4d61abc49ad22c
+run_name: RandomForestClassifier
+run_uuid: f325feca273942719f4d61abc49ad22c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744520765579
+status: 3
+tags: []
+user_id: bhullar295

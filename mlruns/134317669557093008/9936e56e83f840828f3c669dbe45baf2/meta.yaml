@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bhullar295/Edmonton_Food_Drive_Project/mlruns/134317669557093008/9936e56e83f840828f3c669dbe45baf2/artifacts
+end_time: 1744521932945
+entry_point_name: ''
+experiment_id: '134317669557093008'
+lifecycle_stage: active
+run_id: 9936e56e83f840828f3c669dbe45baf2
+run_name: beautiful-finch-649
+run_uuid: 9936e56e83f840828f3c669dbe45baf2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744521917154
+status: 3
+tags: []
+user_id: bhullar295

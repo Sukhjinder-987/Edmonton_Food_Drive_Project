@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bhullar295/Edmonton_Food_Drive_Project/mlruns/134317669557093008/998dc79381b44fbeb18c21ace85fa2a9/artifacts
+end_time: 1744521576432
+entry_point_name: ''
+experiment_id: '134317669557093008'
+lifecycle_stage: active
+run_id: 998dc79381b44fbeb18c21ace85fa2a9
+run_name: mysterious-duck-248
+run_uuid: 998dc79381b44fbeb18c21ace85fa2a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744521560556
+status: 3
+tags: []
+user_id: bhullar295

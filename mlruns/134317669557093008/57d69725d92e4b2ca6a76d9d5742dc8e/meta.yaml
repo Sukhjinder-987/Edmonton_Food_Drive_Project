@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bhullar295/Edmonton_Food_Drive_Project/mlruns/134317669557093008/57d69725d92e4b2ca6a76d9d5742dc8e/artifacts
+end_time: 1744521948902
+entry_point_name: ''
+experiment_id: '134317669557093008'
+lifecycle_stage: active
+run_id: 57d69725d92e4b2ca6a76d9d5742dc8e
+run_name: exultant-stoat-590
+run_uuid: 57d69725d92e4b2ca6a76d9d5742dc8e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744521941309
+status: 3
+tags: []
+user_id: bhullar295

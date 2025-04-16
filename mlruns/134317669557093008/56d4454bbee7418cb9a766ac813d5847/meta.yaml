@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bhullar295/Edmonton_Food_Drive_Project/mlruns/134317669557093008/56d4454bbee7418cb9a766ac813d5847/artifacts
+end_time: 1744521932945
+entry_point_name: ''
+experiment_id: '134317669557093008'
+lifecycle_stage: active
+run_id: 56d4454bbee7418cb9a766ac813d5847
+run_name: receptive-shrimp-354
+run_uuid: 56d4454bbee7418cb9a766ac813d5847
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744521917154
+status: 3
+tags: []
+user_id: bhullar295

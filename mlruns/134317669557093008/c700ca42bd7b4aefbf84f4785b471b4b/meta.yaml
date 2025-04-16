@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bhullar295/Edmonton_Food_Drive_Project/mlruns/134317669557093008/c700ca42bd7b4aefbf84f4785b471b4b/artifacts
+end_time: 1744521649142
+entry_point_name: ''
+experiment_id: '134317669557093008'
+lifecycle_stage: active
+run_id: c700ca42bd7b4aefbf84f4785b471b4b
+run_name: awesome-cow-699
+run_uuid: c700ca42bd7b4aefbf84f4785b471b4b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744521633928
+status: 3
+tags: []
+user_id: bhullar295

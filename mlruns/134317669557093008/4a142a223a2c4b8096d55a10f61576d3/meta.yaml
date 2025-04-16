@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bhullar295/Edmonton_Food_Drive_Project/mlruns/134317669557093008/4a142a223a2c4b8096d55a10f61576d3/artifacts
+end_time: 1744521941306
+entry_point_name: ''
+experiment_id: '134317669557093008'
+lifecycle_stage: active
+run_id: 4a142a223a2c4b8096d55a10f61576d3
+run_name: DecisionTreeClassifier
+run_uuid: 4a142a223a2c4b8096d55a10f61576d3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744521937501
+status: 3
+tags: []
+user_id: bhullar295

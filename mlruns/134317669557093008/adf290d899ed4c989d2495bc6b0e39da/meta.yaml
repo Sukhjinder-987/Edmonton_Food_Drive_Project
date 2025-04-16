@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bhullar295/Edmonton_Food_Drive_Project/mlruns/134317669557093008/adf290d899ed4c989d2495bc6b0e39da/artifacts
+end_time: 1744521665709
+entry_point_name: ''
+experiment_id: '134317669557093008'
+lifecycle_stage: active
+run_id: adf290d899ed4c989d2495bc6b0e39da
+run_name: amazing-grouse-759
+run_uuid: adf290d899ed4c989d2495bc6b0e39da
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744521657482
+status: 3
+tags: []
+user_id: bhullar295

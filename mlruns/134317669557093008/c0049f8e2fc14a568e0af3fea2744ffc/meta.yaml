@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bhullar295/Edmonton_Food_Drive_Project/mlruns/134317669557093008/c0049f8e2fc14a568e0af3fea2744ffc/artifacts
+end_time: 1744521576432
+entry_point_name: ''
+experiment_id: '134317669557093008'
+lifecycle_stage: active
+run_id: c0049f8e2fc14a568e0af3fea2744ffc
+run_name: dapper-trout-80
+run_uuid: c0049f8e2fc14a568e0af3fea2744ffc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744521560556
+status: 3
+tags: []
+user_id: bhullar295

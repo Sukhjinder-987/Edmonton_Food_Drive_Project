@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bhullar295/Edmonton_Food_Drive_Project/mlruns/134317669557093008/7c6bf7be2db94aeca7aae4e6473c0c65/artifacts
+end_time: 1744520787766
+entry_point_name: ''
+experiment_id: '134317669557093008'
+lifecycle_stage: active
+run_id: 7c6bf7be2db94aeca7aae4e6473c0c65
+run_name: victorious-hare-418
+run_uuid: 7c6bf7be2db94aeca7aae4e6473c0c65
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744520771621
+status: 3
+tags: []
+user_id: bhullar295

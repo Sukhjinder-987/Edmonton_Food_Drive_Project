@@ -1,0 +1,12 @@
+digest: c4b70a22
+name: dataset
+profile: '{"num_rows": 448, "num_elements": 2688}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "Ward/Branch", "required": true},
+  {"type": "long", "name": "Completed More Than One Route", "required": true}, {"type":
+  "double", "name": "# of Adult Volunteers", "required": true}, {"type": "double",
+  "name": "Doors in Route", "required": true}, {"type": "double", "name": "# of Youth
+  Volunteers", "required": true}, {"type": "double", "name": "Time Spent", "required":
+  false}]}'
+source: '{"tags": {"mlflow.user": "bhullar295", "mlflow.source.name": "/home/bhullar295/Edmonton_Food_Drive_Project/src/train.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

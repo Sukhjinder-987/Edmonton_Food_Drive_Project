@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bhullar295/Edmonton_Food_Drive_Project/mlruns/134317669557093008/98d9904055734891ac2ea3715d995508/artifacts
+end_time: 1744521506686
+entry_point_name: ''
+experiment_id: '134317669557093008'
+lifecycle_stage: active
+run_id: 98d9904055734891ac2ea3715d995508
+run_name: brawny-foal-128
+run_uuid: 98d9904055734891ac2ea3715d995508
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744521491254
+status: 3
+tags: []
+user_id: bhullar295

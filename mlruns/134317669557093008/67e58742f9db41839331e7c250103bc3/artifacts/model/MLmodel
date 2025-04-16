@@ -1,0 +1,31 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 2.21.0
+model_size_bytes: 31962
+model_uuid: e9a1e832cf754e41b8e09b1a9ab8c1de
+prompts: null
+run_id: 67e58742f9db41839331e7c250103bc3
+signature:
+  inputs: '[{"type": "long", "name": "Ward/Branch", "required": true}, {"type": "long",
+    "name": "Completed More Than One Route", "required": true}, {"type": "double",
+    "name": "# of Adult Volunteers", "required": true}, {"type": "double", "name":
+    "Doors in Route", "required": true}, {"type": "double", "name": "# of Youth Volunteers",
+    "required": true}, {"type": "double", "name": "Time Spent", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-04-13 05:19:41.114086'

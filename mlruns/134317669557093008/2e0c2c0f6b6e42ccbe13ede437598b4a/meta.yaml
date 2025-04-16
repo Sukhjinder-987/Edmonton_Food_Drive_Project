@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bhullar295/Edmonton_Food_Drive_Project/mlruns/134317669557093008/2e0c2c0f6b6e42ccbe13ede437598b4a/artifacts
+end_time: 1744521932945
+entry_point_name: ''
+experiment_id: '134317669557093008'
+lifecycle_stage: active
+run_id: 2e0c2c0f6b6e42ccbe13ede437598b4a
+run_name: bold-tern-277
+run_uuid: 2e0c2c0f6b6e42ccbe13ede437598b4a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744521917154
+status: 3
+tags: []
+user_id: bhullar295
