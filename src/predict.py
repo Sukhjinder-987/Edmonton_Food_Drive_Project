@@ -2,6 +2,8 @@ import os
 import joblib
 import pandas as pd
 import logging
+import mlflow
+import mlflow.sklearn
 from sklearn.preprocessing import StandardScaler
 from sklearn.impute import SimpleImputer
 
@@ -19,17 +21,23 @@ class Predictor:
         self.model_path = os.path.join(self.config["models_dir"], "RandomForestClassifier.pkl")
         self.output_path = os.path.join("data","predicted_data", "predictions.csv")
 
+        # Optionally, use MLflow autolog for sklearn
+        mlflow.sklearn.autolog()
+
+        # Set up mlflow experiment
+        mlflow.set_experiment(self.mlflow_experiment_name)
+
         # Configure logging
         logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
     def load_data(self):
-        """Loads the test data."""
+        """Step 1: Loads the test data."""
         logging.info(f"Loading test data from {self.test_path}...")
         self.test_df = pd.read_csv(self.test_path)
         logging.info(f"Test data loaded with {self.test_df.shape[0]} rows and {self.test_df.shape[1]} columns.")
 
     def preprocess_data(self):
-        """Preprocesses the test data."""
+        """Step 2: Preprocesses the test data."""
         logging.info("Preprocessing test data...")
         feature_columns = ['Ward/Branch', 'Completed More Than One Route', '# of Adult Volunteers', 
                            'Doors in Route', '# of Youth Volunteers', 'Time Spent']
@@ -58,7 +66,7 @@ class Predictor:
         logging.info("Test data preprocessing complete.")
 
     def load_model(self):
-        """Loads the trained model."""
+        """Step 3: Loads the trained model."""
         logging.info(f"Loading model from {self.model_path}...")
         if not os.path.exists(self.model_path):
             raise FileNotFoundError(f"Model file not found at {self.model_path}")
@@ -66,7 +74,7 @@ class Predictor:
         logging.info("Model loaded successfully.")
 
     def predict(self):
-        """Makes predictions on the test data."""
+        """Step 4: Makes predictions on the test data."""
         logging.info("Making predictions...")
         predictions = self.model.predict(self.X_test)
         self.test_df["Predictions"] = predictions
@@ -80,6 +88,7 @@ class Predictor:
 
     def run(self):
         """Runs the full prediction pipeline."""
+        logging.info("Starting training pipeline...")
         self.load_data()
         self.preprocess_data()
         self.load_model()

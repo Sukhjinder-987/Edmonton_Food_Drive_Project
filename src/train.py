@@ -28,6 +28,14 @@ class Trainer:
         with open(config_path, "r") as path:
             self.config = yaml.safe_load(path)
 
+        # Optionally, use MLflow autolog for sklearn
+        mlflow.sklearn.autolog()
+
+        # Start an MLflow run using the context manager
+        with mlflow.start_run() as run:
+            # Log training parameters
+            mlflow.log_params(self.config)
+
         self.train_path = os.path.join("data","processed", self.config["train_path"])
         self.test_path = os.path.join("data","processed", self.config["test_path"])   
 
