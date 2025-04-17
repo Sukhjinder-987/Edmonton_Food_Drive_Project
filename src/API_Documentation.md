@@ -26,27 +26,84 @@ curl -X GET http://localhost:5001/health
 
 #### **Sample Request**:
 ```bash
+Endpoints
+/health_status (GET)
+
+Description: Verifies that the API is running.
+Response:
 
 {
   "status": "API is running"
 }
 
-POST /predict
+/v1/predict (POST)
 
-curl -X POST http://127.0.0.1:5001/predict -H "Content-Type: application/json" -d '{
-  "Ward/Branch": "Silver Berry Ward",
+Description: Predicts using model version 1.
+Input:
+
+curl -X POST http://127.0.0.1:5000/v1/predict \
+-H "Content-Type: application/json" \
+-d '{
+  "Ward/Branch": "Woodbend Ward",
   "Completed More Than One Route": "Yes",
-  "Comment Sentiments": "Positive"
+  "# of Adult Volunteers": 3,
+  "# of Youth Volunteers": 2,
+  "Doors in Route": 120,
+  "Time Spent": 1.75
 }'
 
+/v1/predict (POST)
+
+Description: Predicts using model version 1.
+Input:
+
 {
   "Ward/Branch": "Silver Berry Ward",
   "Completed More Than One Route": "Yes",
-  "Comment Sentiments": "Positive"
+  "# of Adult Volunteers": 3,
+  "# of Youth Volunteers": 2,
+  "Doors in Route": 120,
+  "Time Spent": 1.75
 }
 
+Response:
 {
-  "prediction": "Positive"
+  "prediction": [2]
+}
+
+/v2/predict (POST)
+
+Description: Predicts using model version 2.
+Input:
+
+curl -X POST http://127.0.0.1:5000/v2/predict \
+-H "Content-Type: application/json" \
+-d '{
+  "Ward/Branch": "Woodbend Ward",
+  "Completed More Than One Route": "Yes",
+  "# of Adult Volunteers": 3,
+  "# of Youth Volunteers": 2,
+  "Doors in Route": 120,
+  "Time Spent": 1.75
+}'
+
+/v1/predict (POST)
+
+Description: Predicts using model version 2.
+Input:
+
+{
+  "Ward/Branch": "Silver Berry Ward",
+  "Completed More Than One Route": "Yes",
+  "# of Adult Volunteers": 3,
+  "# of Youth Volunteers": 2,
+  "Doors in Route": 120,
+  "Time Spent": 1.75
+}
+
+Response:
+{
+  "prediction": [1]
 }
 
 {
