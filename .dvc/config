@@ -1,7 +1,6 @@
 [core]
     autostage = true
-    remote = gdrive_remote
-['remote "origin"']
+[remote "origin"]
     url = https://github.com/Muskaan-code5400/Edmonton
 ['remote "gdrive_remote"']
     url = gdrive://1073916258109-5g2oshq75q9p1c03l0sj1jrkr185rfrt.apps.googleusercontent.com

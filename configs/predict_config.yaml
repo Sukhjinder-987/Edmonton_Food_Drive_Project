@@ -3,6 +3,7 @@ raw_data_2024: "Food_Drive_Data_Collection_2024.csv"
 train_path: "Cleaned_Proposed_Data_Collection.csv"
 test_path: "Cleaned_food_drive_data.csv"
 models_dir: "models/"
+reports_dir: "reports/"
 model_v1_path: "models/RandomForestClassifier.pkl"
 model_v2_path: "models/DecisionTreeClassifier.pkl"
 predictions_output: "predictions/predictions.csv" 
@@ -14,6 +15,7 @@ feature_columns:
 - "# of Youth Volunteers"
 - "Time Spent"
 target_column: "Comment Sentiments"
+feature_importance: true
 mlflow_experiment_name: "FoodDriveExperiment"
 random_forest:
   n_estimators: 100

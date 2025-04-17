@@ -1,7 +1,6 @@
 train_path: "Cleaned_Proposed_Data_Collection.csv"
 test_path: "Cleaned_food_drive_data.csv"
 models_dir: models
-model_filename: random_forest_classifier_model.pkl
 mlflow_experiment_name: "FoodDriveExperiment"
 random_forest:
   n_estimators: 100
